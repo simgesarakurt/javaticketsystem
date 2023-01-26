@@ -1,0 +1,140 @@
+.container{
+    padding: 0 1.4rem;
+    margin: auto;
+}  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #cc0066;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    background-color: #660033!important;
+}
+.bg-dark{
+    background-color: #800040!important;
+}
+
+footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 7rem;
+        color: #fff;
+}
+
+footer .social .fab{ 
+            margin-right: 1rem;
+            color: #fff;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            text-align: center;
+            padding: 0.6rem;
+            transition: all .6s;
+}
+
+footer .social .fab:hover{
+                background: #cc0066;
+}
+
+.footer-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem; 
+      
+}
+
+.footer-up h5,p{
+    padding: 0 3rem; 
+}
+        
+.header-content{
+  text-align: center;
+ padding: 3% 0;
+}
+
+h1{
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.typewrite{
+            display: block;
+}
+
+.services__icon{
+    background-color:#cc0066;
+    color: #fff;
+    padding: 3rem;
+    text-align: center;
+}
+
+.carousel-caption h5{
+                padding: 4rem 0;
+}
+           
+.btn{
+  display: inline-block;
+  padding: .7rem .2rem;
+  transition: all .5s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-light{
+ color:#fff ;
+ background-color:#ff99cc;
+ }
+
+.primary{
+ color: #fff;
+}
+
+.bg-list{
+  background-color: #ff99cc!important;
+}
+
+.py-3{
+                padding: 3rem 0;
+}
+
+.py-4{
+                padding: 4rem 0;
+}
+
+.my-3{
+                margin: 3rem 0;
+}
+.my-4{
+ margin: 4rem 0;
+}
+      
+.text-center{
+            text-align: center;
+}
+        
+.section-title{
+ font-size: 2rem;
+ text-transform: uppercase;
+ text-align: center;
+}
+
+.card{
+    margin: 2rem 0;
+}
+
+.animate__animated.animate__swing{
+    --animate-duracation:5s;
+}
+

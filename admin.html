@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Admin</title>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="container">
+          <h1 class="section title">Uçuş Ayarla</h1>
+          <div class="main row justify-content-center">
+            <form action="" id="user-form" class="row justify-content-center mb-4" autocomplete="off">
+              <div class="col-10 col-md-8 mb-3">
+                <label for="firstName"> Pilot İsim</label>
+                <input type="text" class="form-control" id="firstName" placeholder="İsim">
+              </div>
+              <div class="col-10 col-md-8 mb-3">
+                <label for="lastName">Pilot Soyisim</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Soyisim">
+              </div>
+              <div class="col-10 col-md-8 mb-3">
+                <label for="rollNo">Pilot TC No</label>
+                <input type="text" class="form-control" id="rollNo" placeholder="TC Kimlik No">
+              </div>
+               <div class="col-10 col-md-8 mb-3">
+                <label class="input-group-text " >Nereden</label>
+                <select class="form-select" id="city">
+                  <option selected>Seçiniz</option>
+                  <option value="İstanbul">İstanbul</option>
+                  <option value="Ankara">Ankara</option>
+                  <option value="İzmir">İzmir</option>
+                </select>
+                </div>
+                <div class="col-10 col-md-8 mb-3">
+                <label class="input-group-text ">Nereye</label>
+                <select class="form-select" id="city1" >
+                  <option selected>Seçiniz</option>
+                  <option value="İstanbul">İstanbul</option>
+                  <option value="Ankara">Ankara</option>
+                  <option value="İzmir">İzmir</option>
+                </select>
+              </div> 
+             
+              <div class="col-10 col-md-8 ">
+                <input type="submit" value="Uçuş Ayarla" class="btn btn-success add-btn ">
+               
+                <a href="login.html" class="btn btn-danger">Çıkış Yap</a>
+          
+                 
+              </div>
+      
+              
+             </form>
+             <div class="col-12 col-md-8 mt-4">
+              <table class="table table-striped table-dark">
+                <thead>
+                  <tr>
+                    <th>Pilot İsim</th>
+                    <th> Pilot Soyisim</th>
+                    <th> Pilot TC No</th>
+                    <th>Nereden</th>
+                    <th>Nereye</th>
+                    
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="user-list">
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                
+                    
+                    <td>
+                      <a href="#" class="btn btn-warning btn-sm edit">Düzenle</a>
+                      <a href="#" class="btn btn-danger btn-sm delete">Sil</a>
+                    </td>
+      
+                  </tr>
+                </tbody>
+                
+              </table>
+             </div>
+        </div>
+      </div>
+      
+        
+      
+       
+      </section>
+      <script src="js/admin.js"></script>
+      <script src="js/jquery.min.js"></script>
+
+</body>
+</html>
